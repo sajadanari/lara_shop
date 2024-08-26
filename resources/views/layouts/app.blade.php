@@ -56,10 +56,6 @@
 </head>
 <body>
     @include("layouts.header")
-    @include("layouts.slider")
-    @section("test")
-        test master
-    @show
     @yield('content')
     @include("layouts.footer")
 

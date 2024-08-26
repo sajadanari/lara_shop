@@ -60,7 +60,7 @@
                     <div class="main-menu">
                         <div class="menu-left">
                             <div class="brand-logo">
-                                <a href="index.htm">
+                                <a href="{{ route('home') }}">
                                     <img src="assets/images/logo.png" class="h-logo img-fluid blur-up lazyload"
                                         alt="logo">
                                 </a>
@@ -126,7 +126,7 @@
                                     <div class="onhover-div profile-dropdown">
                                         <ul>
                                             <li>
-                                                <a href="login.html" class="d-block">Login</a>
+                                                <a href="{{ route('login') }}" class="d-block">Login</a>
                                             </li>
                                             <li>
                                                 <a href="register.html" class="d-block">Register</a>
